@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name midi2cv)(type Legacy)(uri ${KIPRJMOD}/libs/midi2cv.lib)(options "")(descr ""))
   (lib (name Arduino_Uno_R3)(type Legacy)(uri ${KIPRJMOD}/libs/Arduino_Uno_R3.lib)(options "")(descr ""))
+  (lib (name "midi2cv(uno)-cache")(type Legacy)(uri "/Users/jeff/Google Drive/EE and Repairs/__My_Orig_Kicad5/MIDI2CV/MIDI2CV/Schematics/Kicad 5/midi2cv(uno)-cache.lib")(options "")(descr ""))
 )

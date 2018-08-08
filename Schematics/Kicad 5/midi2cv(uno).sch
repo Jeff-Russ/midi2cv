@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr User 9449 7874
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "MIDI2CV"
 Date "2018-08-07"
 Rev ""
@@ -811,4 +811,10 @@ Wire Wire Line
 Wire Wire Line
 	1800 4250 1800 3850
 Connection ~ 1800 3850
+$Sheet
+S 10250 2400 900  700 
+U 5B6B1999
+F0 "Arduino_Uno_R3" 50
+F1 "Arduino_Uno_R3.sch" 50
+$EndSheet
 $EndSCHEMATC
