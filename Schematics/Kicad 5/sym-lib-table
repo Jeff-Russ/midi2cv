@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name midi2cv)(type Legacy)(uri ${KIPRJMOD}/libs/midi2cv.lib)(options "")(descr ""))
+  (lib (name Arduino_Uno_R3)(type Legacy)(uri ${KIPRJMOD}/libs/Arduino_Uno_R3.lib)(options "")(descr ""))
+)

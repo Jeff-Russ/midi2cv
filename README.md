@@ -1,6 +1,7 @@
 # midi2cv
-
-<img src="/images/IMG_0776.JPG" alt="midi2cv" width="400"> <img src="/images/IMG_0777.JPG" alt="midi2cv" width="400">
+ 
+![midi2cv](./images/IMG_0776.JPG)
+![midi2cv](./images/IMG_0777.JPG)
 
 This repository contains the code and schematic for a DIY MIDI to CV converter.  I installed this converter into a home-built analog synthesizer, allowing me to play the synthesizer with my Yamaha CP50 keyboard over MIDI.
 
@@ -14,6 +15,18 @@ The MIDI to CV converter includes the following outputs:
 * Trigger output (5V, 20 msec pulse for each new key played)
 * Gate output (5V when any key depressed)
 * Clock output (1 clock per quarter note, 20 msec 5V pulses)
+
+## About This Fork
+
+This Fork MIDI2CV by Larry McGovern (elkayem) adds a version with the correct pinout for Arduino Uno and adds projects for Kicad version 5. More changes are comming, after which this version will stay, unchanged, in it's own branch.  
+
+Here is the schematic for Arduino Uno:  
+
+![schematic](./images/MIDI2CV-Uno.png)
+
+and here is the schematic for Arduino Nano:
+
+![schematic](./images/MIDI2CV-Nano.png)
 
 ## Parts
 * Arduino Nano
@@ -38,9 +51,8 @@ The note priority options and jumper configuration are as follows:
 * **Lowest Note:** Analagous to highest note, except the lowest note being held will be sounded. Connect the NP_SEL jumper to the A0 pin and center pin (ground) to select this configuration. 
 * **Last Note:** The most recent note played will be sounded.  When that note is released, the next most recent note still being held will be sounded.  Connect the NP_SEL jumper to the A2 pin and center pin (ground) to select this configuration.  The illustration below shows the jumper configuration for the Last Note setting.
 
-<img src="/images/IMG_1884.JPG" alt="jumper" width="300">
+![jumper](./images/IMG_1884.JPG)
 
-<img src="/images/schematic.JPG" alt="schematic" width="800">
 
 
 
